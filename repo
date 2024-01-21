@@ -1,0 +1,29 @@
+
+
+$ sudo cat /etc/yum.repos.d/sbt-rpm.repo
+[sbt-rpm]
+name=sbt-rpm
+baseurl=https://repo.scala-sbt.org/scalasbt/rpm
+gpgcheck=0
+repo_gpgcheck=0
+enabled=1
+
+$ rpm -ql sbt
+/etc/sbt
+/usr
+/usr/bin/sbt
+/usr/share
+/usr/share/doc
+/usr/share/doc/sbt
+/usr/share/doc/sbt/copyright
+/usr/share/man
+/usr/share/man/man1
+/usr/share/man/man1/sbt.1.gz
+/usr/share/sbt/LICENSE
+/usr/share/sbt/NOTICE
+/usr/share/sbt/bin
+/usr/share/sbt/bin/sbt
+/usr/share/sbt/conf
+/usr/share/sbt/conf/sbtconfig.txt
+/usr/share/sbt/conf/sbtopts
+
